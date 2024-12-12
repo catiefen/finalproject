@@ -25,15 +25,19 @@ Some guidelines and tips:
 
 OK, here we go.
 
-# Title of my project
+# Evolutionary Alterations to the Eurypterid Metastoma
 
 ## Introduction and Goals
 
-The goal of my project is to answer the question, What is...?
+Eurypterids, commonly known as sea scorpions, are a diverse and cosmopolitan group of extinct subphylum Chelicerata (phylum Arthropoda). They lived from the mid-Ordovician to the late Permian and inhabited a wide array of marine and freshwater environments. Ranging in length from a few centimeters to 2.5 meters, eurypterids are studied for a range of paleoecological and preservational purposes (Bicknell et al 2020). The Peabody Museum, due to a long-term collaboration with Sam Ciurca, has the world’s largest collection of eurypterids—larger than all other museums combined. 
 
-The methods I will use to do this are...
+Last summer (2024), with support from the Von Damm Fellowship and YPM’s Invertebrate Paleontology division, I began digitizing and categorizing the Ciurca collection, cataloging every specimens’ preserved anatomical elements. Due to Ciurca’s detailed and extensive field notes, most specimens have robust locality, age, and species data, enabling me to use these data in a phylogenetically meaningful way.
 
-The data I will use are (my own data/ data publicly available at YYY/ simulations)
+The metastoma is a ventrally located anatomical element of eurypterids’ chitin exoskeleton. It connects laterally with segments of the swimming appendages; its anterior edge forms one border of the mouth, and its posterior edge connects to the body segments (tergites) containing the genital appendage. Metastoma have a wide variety of morphologies, including heart-shaped, elliptical, elongate, and pinched at either end. Additionally, metastoma have incredible representation in the fossil record of sites Ciurca sampled, as they seem to disarticulate easily. 
+
+I am interested in mapping morphological change in eurypterid metastomas across the established phylogeny (Tetlie 2007). I want to determine how metastoma shape has evolved across the clade, how it associates with other changes such as the elongation of chelicerae, alteration of paddle appendages into claws, and alteration of the telson from a pointed to paddle shape. I am also interested in hypothesizing how these changes correlate with environmental or niche changes, if those changes can be grouped by clade, and how morphological variation could have been ecologically favored. 
+
+From the established dataset, I will select several representative metastomas for each eurypterid species that the Peabody has data for. Once several metastoma samples have been selected, I will select and mark homologous points in the metastoma using a method developed by a previous postdoctoral mentor, Dr. Zachary Morris. I will select homologous points using the R package Stereomorph, and will map this data to the existing eurypterid phylogeny. I will also use this data to create an original phylogeny to determine how closely associated metastoma morphology is with speciation events (and just to see what it outputs!). 
 
 ## Methods
 
@@ -53,3 +57,6 @@ If I did these analyses again, I would...
 
 ## References
 
+Bicknell, R. D. C., Smith, P. M., & Poschmann, M. (2020). Re-evaluating evidence of Australian eurypterids. Gondwana Research, 86, 164–181. https://doi.org/10.1016/j.gr.2020.06.002
+
+Tetlie, O. E. (2007). Distribution and dispersal history of Eurypterida (Chelicerata). Palaeogeography, Palaeoclimatology, Palaeoecology, 252(3), 557–574. https://doi.org/10.1016/j.palaeo.2007.05.011
