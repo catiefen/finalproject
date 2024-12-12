@@ -1,4 +1,4 @@
-[covariates.csv](https://github.com/user-attachments/files/18117878/covariates.csv)# Phylogenetic Biology - Final Project
+# Phylogenetic Biology - Final Project
 
 ## Guidelines - you can delete this section before submission
 
