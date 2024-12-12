@@ -1,4 +1,4 @@
-# Phylogenetic Biology - Final Project
+[covariates.csv](https://github.com/user-attachments/files/18117878/covariates.csv)# Phylogenetic Biology - Final Project
 
 ## Guidelines - you can delete this section before submission
 
@@ -39,25 +39,14 @@ I am interested in mapping morphological change in eurypterid metastomas across 
 
 From the established dataset, I will select several representative metastomas for each eurypterid species that the Peabody has data for. Once several metastoma samples have been selected, I will select and mark homologous points in the metastoma using a method developed by a previous postdoctoral mentor, Dr. Zachary Morris. I will select homologous points using the R package Stereomorph, and will map this data to the existing eurypterid phylogeny. I will also use this data to create an original phylogeny to determine how closely associated metastoma morphology is with speciation events (and just to see what it outputs!). 
 
-## Data Files
-
-
-
 ## Methods
 
-The tools I used were... See analysis files at (links to analysis files).
+See my R script at: ([Uploading Metastoma_analysis.R…]).
 
-To generate shape data, I used the Stereomorph package in R to upload images, digitize landmarks, and read this data. See input files at: (pictures folder, shapes folder, curves, landmarks).
-[Curves.txt](https://github.com/user-attachments/files/18117796/Curves.txt)
-[Landmarks.txt](https://github.com/user-attachments/files/18117799/Landmarks.txt)
 
-### Stereomorph
-Pictures folder
-Shapes folder
-Curves
-Landmarks
+To generate shape data, I used the stereomorph package in R to upload images, digitize landmarks, and read this data. See input files at: ([Curves.txt](https://github.com/user-attachments/files/18117796/Curves.txt), [Landmarks.txt](https://github.com/user-attachments/files/18117799/Landmarks.txt), [Shapes.zip](https://github.com/user-attachments/files/18117837/Shapes.zip), [Pictures.zip](https://github.com/user-attachments/files/18117841/Pictures.zip)). I used the geomorph package to run a GPA and PCA on the shape data, and I plotted the results with respect to Species and Genus. See covariate input file at: ([covariates.csv](https://github.com/user-attachments/files/18117881/covariates.csv)).
 
-###
+To construct a phylogeny from metastoma shape data, I created a distance matrix from the scaled & aligned GPA coordinate outputs. 
 
 ## Results
 
