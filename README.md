@@ -41,8 +41,7 @@ From the established dataset, I will select several representative metastomas fo
 
 ## Methods
 
-See my R script at: ([Uploading Metastoma_analysis.R…]).
-
+See my R script at: ([R_script.txt](https://github.com/user-attachments/files/18117949/R_script.txt)).
 
 To generate shape data, I used the stereomorph package in R to upload images, digitize landmarks, and read this data. See input files at: ([Curves.txt](https://github.com/user-attachments/files/18117796/Curves.txt), [Landmarks.txt](https://github.com/user-attachments/files/18117799/Landmarks.txt), [Shapes.zip](https://github.com/user-attachments/files/18117837/Shapes.zip), [Pictures.zip](https://github.com/user-attachments/files/18117841/Pictures.zip)). I used the geomorph package to run a GPA and PCA on the shape data, and I plotted the results with respect to Species and Genus. See covariate input file at: ([covariates.csv](https://github.com/user-attachments/files/18117881/covariates.csv)).
 
