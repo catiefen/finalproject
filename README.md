@@ -15,7 +15,8 @@ As eurypterid fossils are most often found incomplete and disarticulated, there 
 
 ## Methods
 
-See my R script, input files, and outputs here: Zip folder
+See my R script, input files, and outputs here: [Zip folder](https://drive.google.com/file/d/1R3gzlTen2WU03BuqqnxODT3oQ664Z1a0/view?usp=drive_link)
+(File size exceeded allowed GitHub limit.)
 
 To create shape data, I used the stereomorph package in R to upload images, digitize landmarks, and read data. This digitization process involves individual plotting of homologous points and curves (Landmarks.txt, Curves.txt) across all sample metastoma images ("Pictures" folder), as well as size scaling. The landmark data, saved as pixel coordinates (and contained in the folder "Shapes"), and was read by the stereomorph program for analysis via geomorph. 
 
